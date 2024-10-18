@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2931027F-8680-96B2-C85E-8ADB9F7257CD" name="TRANSAKSI">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:10:39 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="09A1A62B-64BA-4DFA-820D-D98FA99E3EEE">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:10:55 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>123456</dataTypeSize>
+<ownDataTypeParameters>123456,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PELANGGAN" id="25A28940-31C8-93F4-7A64-3B13DB8EA361">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:11:32 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>23090025</dataTypeSize>
+<ownDataTypeParameters>23090025,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PLAYSTATION" id="36F17CE8-C86E-95E0-4B62-ED0BA6C8DF3D">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:11:51 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>54321</dataTypeSize>
+<ownDataTypeParameters>54321,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL SEWA" id="0A4B720D-C686-967E-E475-516720330404">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:12:19 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12/8/2024</dataTypeSize>
+<ownDataTypeParameters>12/8/2024,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL KEMBALI" id="9BAD5E2B-F73A-7B98-5527-08FB667F4A5A">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:12:51 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13/8/2024</dataTypeSize>
+<ownDataTypeParameters>13/8/2024,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL BIAYA" id="ACFF4325-EC5E-A372-1227-16CFA5755A1C">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:14:50 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100.000</dataTypeSize>
+<ownDataTypeParameters>100.000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

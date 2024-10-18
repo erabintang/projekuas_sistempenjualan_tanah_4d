@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="relationv1" directorySegmentName="seg_0" id="1AA844A1-F4C7-71DB-9C31-5477E61CBAD9">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:33:31 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Pelanggan menyewa PlayStation Unit</nameOnSource>
+<nameOnTarget>Transaksi Sewa, yang dikelola oleh Staf.</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>39378C82-1E9A-CD86-FFE1-9DDBD6F69A16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2931027F-8680-96B2-C85E-8ADB9F7257CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

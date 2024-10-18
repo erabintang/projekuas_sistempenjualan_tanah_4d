@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7AFC7C16-4322-FF51-7B3E-CF9B44F91154" mainViewID="DBC58354-83F1-586F-AF21-65EABB4A757C">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 06:54:44 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

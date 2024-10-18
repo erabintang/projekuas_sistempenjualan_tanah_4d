@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39378C82-1E9A-CD86-FFE1-9DDBD6F69A16" name="PELANGGAN">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 06:55:18 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="BD21AB88-2664-6AC0-3AC7-6D42A5190EDD">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 06:55:51 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>23090025</dataTypeSize>
+<ownDataTypeParameters>23090025,,</ownDataTypeParameters>
+<preferredAbbreviation>23090025</preferredAbbreviation>
+</Attribute>
+<Attribute name="NAMA" id="E1DF4B49-9374-8B1B-7419-69BA6057A61B">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:00:03 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>ERA</dataTypeSize>
+<ownDataTypeParameters>ERA,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALAMAT" id="19C7FC59-035E-4A94-68BD-B1EC1409FCD7">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:06:10 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>BREBES</dataTypeSize>
+<ownDataTypeParameters>BREBES,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMER TELPON" id="2B5D027A-846F-EA0B-343F-BBA5E6C0DECA">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:07:21 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>088237166905</dataTypeSize>
+<ownDataTypeParameters>088237166905,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="16D56E1D-88A3-FCBB-D080-67FDF74EB8C3">
+<createdBy>binta</createdBy>
+<createdTime>2024-10-18 07:08:53 UTC</createdTime>
+<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
+<engineerTo>
+<item key="3C71DEE9-9A05-CFA3-7B06-7676280CB209" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>erabintang55@gmail.com</dataTypeSize>
+<ownDataTypeParameters>erabintang55@gmail.com,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
