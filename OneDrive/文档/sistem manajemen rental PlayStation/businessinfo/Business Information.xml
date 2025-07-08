@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E5164B6B-7B34-C016-B825-890AD465F6CC">
-<createdBy>binta</createdBy>
-<createdTime>2024-10-18 06:54:45 UTC</createdTime>
-<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

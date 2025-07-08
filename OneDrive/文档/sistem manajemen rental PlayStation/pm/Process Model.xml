@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="37CB6E73-8282-BF57-DF59-CC2828FF5D24">
-<createdBy>binta</createdBy>
-<createdTime>2024-10-18 06:54:44 UTC</createdTime>
-<ownerDesignName>sistem manajemen rental PlayStation</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
